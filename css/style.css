@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    font-family:'lato',sans-serif;
+    font-weight: 700;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: #555;
+    background: #ecf0f3;
+    /* margin-top: 220px; */
+}
+.loin-div{
+width: 430px;
+height: 700px;
+padding: 60px 35px 35px 35px;
+background: #ecf0f3;
+border-radius: 40px;
+box-shadow: 13px 13px 20px #cbcbcb,
+            -13px -13px 20px #ffffff;
+            
+}
+
+.logo {
+    background: red;
+    color: white;
+    width: 100px;
+    height: 100px;
+    display: grid;
+    place-content: center;
+    font-size: 50px;
+    border-radius: 50%;
+    margin: auto;
+    box-shadow:
+    /*logo shadow*/
+    0px 0px 5px #5f5f5f,
+    /*offser*/
+    0px 0px 0px 5px #ecf0f3,
+    /*bottom right*/
+    8px 8px 15px #a7fffa,
+    /*top left*/
+    -8px -8px 15px#ffffff
+                ;
+}
+.wel {
+    font-size: 35px;
+    text-align: center;
+    margin-top: 10px;
+}
+.files{
+    width: 100%;
+    padding: 75px 5px 5px 5px;
+
+}
+.files input{
+
+padding: 20px 10px 20px 5px;
+border: none;
+outline: none;
+background: none;
+font-size: 18px;
+color: #555;
+
+}
+ .username, .password{
+    margin-bottom: 30px;
+    border-radius: 25px;
+    box-shadow: inset 8px 8px 8px #cbced1,
+                inset -8px -8px 8px #ffffff;
+
+}
+button.loinbtn {
+    border: none;
+    outline: none;
+    background: #24cfaa;
+    width: 100%;
+    border-radius: 30px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    font-family: arial;
+    box-shadow: 3px 3px 8px #b1b1b1,
+                -3px -3px 8px #ffffff
+    ;
+    transition: .5s;
+
+}button.loinbtn:hover {
+background:#2fdbb6
+
+}
+button.loinbtn:active {
+    background:#1da88a
+    
+    }
+    .link {
+        padding-top: 20px;
+        text-align: center;
+        
+    }
+    
+    .link a {
+        text-decoration: none;
+        color: #aaa;
+        font-size: 15px;
+    }
+    
+ 
